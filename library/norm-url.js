@@ -1,0 +1,1 @@
+export function normUrl(t){if(/^https?:\/\//i.test(t))return t;/^\/\/[^/]/.test(t)&&(t=`http:${t}`),/^[a-z]+:\/\//i.test(t)||(t=`http://${t}`);let e=new URL(t),r=`${e.protocol}//${e.hostname}${e.pathname}`;return e.search&&(r+=e.search),e.hash&&(r+=e.hash),r}export default normUrl

@@ -1,0 +1,26 @@
+{
+  "name": "norm-url",
+  "version": "1.0.0",
+  "description": "Simple URL Normalizer",
+  "main": "norm-url.js",
+  "exports": {
+    "import": "./norm-url.js",
+    "require": "./norm-url.cjs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axorax/norm-url.js.git"
+  },
+  "keywords": [
+    "normalize",
+    "normalize-url",
+    "url-normalizer"
+  ],
+  "author": "Axorax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axorax/norm-url.js/issues"
+  },
+  "homepage": "https://github.com/Axorax/norm-url.js#readme"
+}
